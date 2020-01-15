@@ -156,33 +156,32 @@
     }
     /* Your code starts here! */
     
-    header nav {
+    header {
         width: 100%;
+        display: inline-block;
     }
     
-    .navigation {
+    a {
         color: grey;
-        width: 60%;
-        display: inline-block;
-        margin-left: 10%;
         padding: 3%;
-        word-spacing: 15%;
     }
     
     .logo {
-        width: 200px;
-        height: 40px;
         display: inline-block;
-        margin: 0;
-        padding: 3%;
+        margin-left: 15%;
     }
     
     .intro {
         width: 90%;
         border-bottom: 1px solid black;
         margin: 0 5%;
-        padding: 8%;
+        margin-top: 2%;
+        padding: 2%;
         display: inline-block;
+    }
+    
+    .intro img {
+        margin-left: 15%;
     }
     
     .intro div {
@@ -195,6 +194,7 @@
     #title {
         font-size: 80px;
         text-align: center;
+        margin-left: 8%;
     }
     
     #button {
@@ -216,4 +216,17 @@
         width: 90%;
         margin: 0 5%;
         padding: 2%;
+    }
+    
+    .bottom {
+        width: 90%;
+        border-bottom: 1px solid black;
+        margin-left: 5%;
+    }
+    
+    .bottom div {
+        width: 27%;
+        margin: 0 2%;
+        display: inline-block;
+        margin-bottom: 5%;
     }
