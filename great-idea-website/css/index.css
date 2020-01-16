@@ -162,8 +162,15 @@
     }
     
     a {
-        color: grey;
+        color: dimgray;
         padding: 3%;
+        border: 5px solid darkslategrey;
+        background-color: deepskyblue;
+    }
+    
+    a:hover {
+        border: 5px dotted darkorange;
+        background-color: ghostwhite;
     }
     
     .logo {
